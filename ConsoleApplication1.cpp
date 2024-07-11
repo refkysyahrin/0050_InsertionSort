@@ -19,4 +19,10 @@ void input() {
 	cout << "Masukkan Elemen Array" << endl;         //output ke layar
 	cout << "===============" << endl;               //output ke layar
 
-	
+	for (int i = 0; i < n; i++) {
+		cout << "Data ke-" << (i + 1) << ": ";
+		cin >> arr[i];
+
+	}
+}
+
